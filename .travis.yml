@@ -8,5 +8,5 @@ os:
 git:
   submodules: true
 before_install:
-  - sudo apt-get -qq update
-  - sudo apt-get install git build-essential libgtk-3-dev libsdl2-dev lua5.3-dev zlib1g-dev
+  - sudo apt-get update
+  - sudo apt-get install git build-essential libgtk-3-dev libsdl2-dev liblua5.3-dev zlib1g-dev
